@@ -1,0 +1,146 @@
+.tables{
+    padding:25px;
+    padding-left: 30px;
+    
+    
+}
+
+body{
+  color: black;
+  /* background-color: yellow; */
+  
+}
+
+
+table{
+    width:100%;
+    table-layout: fixed;
+    
+  }
+  .tbl-header{
+    background: #01384D;
+   }
+  .tbl-content{
+    /* height:300px; */
+    overflow-x:auto;
+    margin-top: 0px;
+    color: black;
+    /* border-bottom: solid 1px rgb(27, 14, 14); */
+    /* border: 1px solid rgb(31, 11, 11); */
+    border-bottom: none;
+    height: 59vh;
+    overflow-y: scroll;
+    
+  }
+  .td{
+    text-align: left;
+  }
+  th{
+    padding: 20px 15px;
+    text-align:left;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    /* width: 70px; */
+  }
+ 
+  .td-id{
+      /* padding-left: 15px; */
+  }
+  /* demo styles */
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+  body{
+    /* background-color: white; */
+    font-family: 'Roboto', sans-serif;
+  }
+  section{
+    margin: 50px;
+  }
+  
+
+  ::-webkit-scrollbar {
+      width: 6px;
+  } 
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  } 
+  ::-webkit-scrollbar-thumb {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  }
+
+
+  
+  .tr{
+    /* border: 1px solid #01384D; */
+/* box-sizing: border-box; */
+/* border-bottom: 1px solid #01384D;  */
+/* background-color: red; */
+
+}
+
+.td-left{
+  /* border-left: 2px solid #01384D; */
+}
+
+.td-right,.delete-btn{
+  /* border-right: 2px solid #01384D; */
+  
+  /* margin-right: 20px; */
+  /* margin-left: 100px; */
+  
+
+}
+
+.delete-btn{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 3px;
+background: #f1dcdc;
+/* opacity: 0.8; */
+border-radius: 5px;
+}
+
+
+
+.tables thead  .th, .tables tbody .td{
+  width: 145px;
+  /* background-color: red; */
+  text-align: left
+  ;
+  
+}
+
+.tables tbody .td{
+  /* margin-right: 80px; */
+
+}
+.tables table thead tr .th-id, .tables table tbody tr  .td-id{
+    width: 40px;
+    /* background-color: red; */
+    text-align: left;
+}
+
+
+.tr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tables .tbl-header table thead tr  .th-left{
+  /* margin-left: 580px; */
+  /* color: blueviolet; */
+  padding-left: 130px;
+}
+
+
+.tables .tbl-content table tbody tr  .th-toggle{
+  /* margin-left: 580px; */
+  /* color: blueviolet; */
+  /* padding-left: 140px; */
+padding-right: 50px;
+}

@@ -1,0 +1,79 @@
+.dashboard {
+    background: #01384D;
+    box-shadow: 0px 0px 0px 1px #022837;
+    height: 88vh;
+    /* height: 120vh; */
+    width: 20%;
+}
+
+
+.dashboard-link {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 220px;
+    padding: 20px 0px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background: #01384D;
+    border: none;
+
+
+
+}
+
+.dashboard-header {
+    display: flex;
+    padding-left: 20px;
+    /* padding-right: 150px; */
+    /* justify-content: center; */
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+    /* border-right:  1px solid black; */
+    /* padding-bottom: 20px; */
+    width: 100%;
+    /* padding: 25px 35px 30px 25px; */
+    width: 220px;
+    /* border: 1px solid black; */
+
+}
+
+.dashboard-title {
+    font-family: 'Sail', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+    padding-left: 12px;
+}
+
+.dashboard-subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    padding-left: 13px;
+}
+
+
+.dashboard-item {
+    width: 100%;
+    transition: 0.3s;
+
+    /* padding:6px 0px; */
+}
+
+.dashboard-link:hover {
+    width: 100%;
+    background: #EABF9F;
+}
+
+.dashboard-item:hover {
+    /* background: #EABF9F; */
+}
