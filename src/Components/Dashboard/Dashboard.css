@@ -1,7 +1,7 @@
 .dashboard {
     background: #01384D;
     box-shadow: 0px 0px 0px 1px #022837;
-    height: 88vh;
+    height: 100vh;
     /* height: 120vh; */
     width: 20%;
 }
@@ -35,9 +35,17 @@
     /* padding: 25px 35px 30px 25px; */
     width: 220px;
     /* border: 1px solid black; */
+    padding: 28px;
+    
 
 }
-
+.dashboard-list{
+    border-top: 1px solid #8e8b8b;
+    padding-top: 35px;
+}
+.dashboard-item{
+    margin: 10px 0;
+}
 .dashboard-title {
     font-family: 'Sail', cursive;
     font-style: normal;
